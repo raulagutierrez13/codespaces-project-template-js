@@ -23,6 +23,18 @@ import "./styles.css";
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
+/**
+ * @typedef {Object} SiteProps
+ * @property {string} name - The name of the individual.
+ * @property {string} title - The job title of the individual.
+ * @property {string} email - The email address of the individual.
+ * @property {string} gitHub - The GitHub username of the individual.
+ * @property {string} instagram - The Instagram username of the individual.
+ * @property {string} linkedIn - The LinkedIn username of the individual.
+ * @property {string} medium - The Medium username of the individual.
+ * @property {string} twitter - The Twitter username of the individual.
+ * @property {string} youTube - The YouTube username of the individual.
+ */
 const siteProps = {
   name: "Raul Gutierrez",
   title: "Quality Assurance Archt Manager",
